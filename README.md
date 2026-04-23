@@ -4,13 +4,13 @@ Minimal userscript to restore normal `Ctrl-D` forward delete behavior on ChatGPT
 
 ## Why
 
-On macOS, `Ctrl-D` is a long-standing text-editing shortcut for deleting the character to the right of the caret. ChatGPT Web intercepts that shortcut, which breaks the expected behavior while typing.
+On macOS, `Ctrl-D` is a long-standing text-editing shortcut for deleting the character to the right of the caret. On ChatGPT Web, that key combo can trigger ChatGPT's voice input shortcut instead, which breaks the expected behavior while typing.
 
 This userscript:
 
 - runs only on ChatGPT Web
 - intercepts `Ctrl-D`
-- blocks ChatGPT's shortcut
+- blocks ChatGPT's voice input shortcut
 - performs forward delete in editable fields
 
 ## Install
