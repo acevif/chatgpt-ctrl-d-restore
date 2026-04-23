@@ -15,13 +15,17 @@ This userscript:
 
 ## Install
 
-1. Install [Tampermonkey](https://www.tampermonkey.net/).
-2. Open `chatgpt-ctrl-d-restore.user.js` locally to install it during development.
-3. After publishing the repository, install or update it from:
+> [!NOTE]
+> Make sure [Tampermonkey](https://www.tampermonkey.net/) is already installed.
+
+1. Open `chatgpt-ctrl-d-restore.user.js` locally to install it during development.
+2. After publishing the repository, install or update it from:
 
 ```text
 https://raw.githubusercontent.com/acevif/chatgpt-ctrl-d-restore/main/chatgpt-ctrl-d-restore.user.js
 ```
+
+Installing from that URL also enables automatic updates in Tampermonkey.
 
 ## Scope
 
