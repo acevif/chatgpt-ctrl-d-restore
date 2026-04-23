@@ -20,17 +20,24 @@ This userscript:
 
 1. Open the following URL in your browser:
    <https://raw.githubusercontent.com/acevif/chatgpt-ctrl-d-restore/main/chatgpt-ctrl-d-restore.user.js>
-2. When Tampermonkey opens the installation page, click `Install`.
+2. When Tampermonkey opens the installation page, click the `Install` button.
 3. Reload ChatGPT Web.
 
 Installing from that URL also enables automatic updates in Tampermonkey.
 
-## Scope
+## Update
 
-This is intentionally small and dependency-free. It only restores `Ctrl-D` on:
+### Manual Update
 
-- `https://chatgpt.com/*`
-- `https://chat.openai.com/*`
+Open the following URL in your browser, then click the `Update` button when Tampermonkey opens the update page:
+
+<https://raw.githubusercontent.com/acevif/chatgpt-ctrl-d-restore/main/chatgpt-ctrl-d-restore.user.js>
+
+### Configure Auto Update
+
+If you install the script from the URL in the Install section above, automatic updates are enabled automatically in Tampermonkey.
+
+If automatic updates do not run, open the `Installed Userscripts` tab in the Tampermonkey dashboard, select `ChatGPT Ctrl-D restore`, open the `Settings` tab, and turn on `Check for updates`.
 
 ## License
 
