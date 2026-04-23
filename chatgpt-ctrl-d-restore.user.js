@@ -1,7 +1,8 @@
 // ==UserScript==
 // @name         ChatGPT Ctrl-D restore
 // @namespace    https://tampermonkey.net/
-// @version      1.0.0
+// @version      1.0.1
+// @author       acevif
 // @description  Restore Ctrl-D forward delete behavior on ChatGPT Web
 // @homepageURL  https://github.com/acevif/chatgpt-ctrl-d-restore
 // @supportURL   https://github.com/acevif/chatgpt-ctrl-d-restore/issues
