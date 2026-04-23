@@ -1,4 +1,4 @@
-# chatgpt-ctrl-d-restore
+# ChatGPT Ctrl-D restore
 
 Simple userscript to restore normal `Ctrl-D` forward delete behavior on ChatGPT Web.
 
